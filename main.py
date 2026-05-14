@@ -1,0 +1,23 @@
+players_on_court = [
+    {'first_name': 'Mariusz',
+     'last_name': 'Wlazły',
+     'position': 'opposite'},
+    {'first_name': 'Michał',
+     'last_name': 'Winiarski',
+     'position': 'reciever'},
+    {'first_name': 'Marcin',
+     'last_name': 'Możdżonek',
+     'position': 'middle blocker'},
+    {'first_name': 'Maciej',
+     'last_name': 'Dobrowolski',
+     'position': 'setter'},
+    {'first_name': 'Stephane',
+     'last_name': 'Antiga',
+     'position': 'reciever'},
+    {'first_name': 'Paweł',
+     'last_name': 'Zatorski',
+     'position': 'libero'},
+    {'first_name': 'Daniel',
+     'last_name': 'Pliński',
+     'position': 'middle blocker'}
+]
