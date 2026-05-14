@@ -16,8 +16,14 @@ players_on_court = [
      'position': 'reciever'},
     {'first_name': 'Paweł',
      'last_name': 'Zatorski',
-     'position': 'libero'},
-    {'first_name': 'Daniel',
-     'last_name': 'Pliński',
-     'position': 'middle blocker'}
+     'position': 'libero'}
 ]
+
+
+def make_rotation(team):
+    player_for_rotation = team.pop(0)
+    print(player_for_rotation)
+    team.append(player_for_rotation)
+    print(team)
+    
+make_rotation(players_on_court)
